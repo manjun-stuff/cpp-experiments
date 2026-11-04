@@ -1,0 +1,2 @@
+This is my collection of random things I have done in the C++ coding language. This is very disorganized, but I don't really need it to be organized anyways. Don't expect anything to be amazing, as I am still new
+to C++. These are just projects that I just wanted to do for fun. There are some projects here I didn't write, but most of them I did write (for certain definitions of 'most').
