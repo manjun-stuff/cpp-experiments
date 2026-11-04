@@ -1,0 +1,11 @@
+.vscode/
+
+water.dSYM/
+
+worldgen.dSYM/
+
+water
+
+worldgen
+
+.DS_Store
