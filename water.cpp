@@ -309,7 +309,7 @@ int main()
     app.renderer = SDL_CreateRenderer(app.window, nullptr);
     SDL_SetRenderVSync(app.renderer, 1);
     setup_balls(app);
-    app.font = TTF_OpenFont("/Users/minjun/gimkit-clone/OpenSans-SemiBold.ttf", 64);
+    app.font = TTF_OpenFont("OpenSans-SemiBold copy.ttf", 64);
     fpsCounter.init(app.font, app.renderer);
     while (app.running)
     {
