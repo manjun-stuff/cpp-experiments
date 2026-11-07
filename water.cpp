@@ -147,7 +147,7 @@ TextElement fpsCounter;
 float smoothing_kernel(float distance, float radius)
 {
     float value = std::max(0.f, radius - distance);
-    return (value * value * value) / (3.14159265359f * radius * radius * radius * radius * radius) * 10.f;
+    return (value * value * value) / (M_PI * radius * radius * radius * radius * radius) * 10.f;
 }
 
 float smoothing_kernel_slope(float distance, float radius)
@@ -155,7 +155,7 @@ float smoothing_kernel_slope(float distance, float radius)
     if (distance >= radius)
         return 0;
     float numerator = 30 * (radius - distance) * (radius - distance);
-    float denominator = 3.14159265359f * radius * radius * radius * radius * radius;
+    float denominator = M_PI * radius * radius * radius * radius * radius;
     return -numerator / denominator;
 }
 
